@@ -1,0 +1,14 @@
+
+plugins {
+  id 'java'
+  id 'application'
+  id "com.palantir.graal" version "0.6.0-75-ge19faee"
+}
+
+graal {
+    mainClass 'com.d2iq.kubectl.Main'
+    outputName 'kubectl-hello'
+    graalVersion '19.2.1'
+}
+
+mainClassName = 'com.d2iq.kubectl.Main'
