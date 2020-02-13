@@ -23,4 +23,8 @@ dependencies {
 
     // pico for cli
     compile 'info.picocli:picocli:4.1.4'
+
+    // text output table
+    compile group: 'com.massisframework', name: 'j-text-utils', version: '0.3.4'
+
 }
